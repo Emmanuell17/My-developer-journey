@@ -144,6 +144,32 @@ section {
     z-index: 1;
 }
 
+/* Section-specific contrast tweaks */
+
+#projects p.text-muted,
+#tech-stack p.text-muted {
+    color: rgba(226, 232, 240, 0.85) !important;
+}
+
+#projects h2,
+#tech-stack h2 {
+    color: #e5e7eb;
+}
+
+#hobbies {
+    background-color: #f9fafb !important;
+    color: #0f172a;
+}
+
+#hobbies h2,
+#hobbies h5 {
+    color: #0f172a;
+}
+
+#hobbies p {
+    color: #4b5563;
+}
+
 /* Skill Bar Styling */
 .progress {
     background-color: #e0e0e0;
