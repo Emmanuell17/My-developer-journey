@@ -37,6 +37,16 @@ body {
     animation: fadeIn 3s ease-in-out;
 }
 
+.portfolio-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    margin-bottom: 1.5rem;
+}
+
 /* Timeline Styles */
 .timeline {
     position: relative;
