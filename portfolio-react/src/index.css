@@ -1,3 +1,5 @@
+/* Main site styles copied from static version */
+
 /* Design tokens */
 :root {
     --color-bg: #050816;
@@ -178,25 +180,6 @@ section {
     color: #4b5563;
 }
 
-/* Skill Bar Styling */
-.progress {
-    background-color: #e0e0e0;
-    border-radius: 20px;
-    overflow: hidden;
-    height: 25px;
-    margin-bottom: 1.5rem;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-.progress-bar {
-    height: 100%;
-    text-align: center;
-    line-height: 25px;
-    color: white;
-    background-color: #007bff;
-    transition: width 1s ease-in-out;
-}
-
 /* Footer Styles */
 footer {
     background: radial-gradient(circle at top, #020617, #020617 40%, #000814);
@@ -275,26 +258,5 @@ footer a:hover {
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2.2rem;
-    }
-
-    .timeline {
-        border-left: none;
-        padding-left: 0;
-    }
-
-    .timeline-item::before {
-        display: none;
-    }
-
-    .timeline-item {
-        padding-left: 0;
-    }
-
-    .progress {
-        height: 20px;
-    }
-
-    .progress-bar {
-        font-size: 0.9rem;
     }
 }
