@@ -11,6 +11,12 @@ export function usePortfolio() {
     let cancelled = false;
 
     async function fetchPortfolio() {
+      if (!import.meta.env.DEV) {
+        setData(FALLBACK_DATA);
+        setLoading(false);
+        return;
+      }
+
       try {
         const res = await fetch("/api/portfolio");
         if (!res.ok) throw new Error("Failed to load portfolio data");
