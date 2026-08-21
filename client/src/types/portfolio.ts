@@ -16,6 +16,9 @@ export interface Experience {
   startDate: string;
   endDate: string;
   description: string;
+  highlights: string[];
+  stack: string[];
+  current?: boolean;
 }
 
 export interface Education {
@@ -35,29 +38,32 @@ export interface Certification {
   date: string;
 }
 
+export interface SkillGroup {
+  category: string;
+  items: string[];
+}
+
 export interface PortfolioData {
   profile: {
     name: string;
     title: string;
+    headline: string;
     location: string;
     phone: string;
+    phoneDisplay: string;
     email: string;
     bio: string;
+    summary: string;
     links: {
       github: string;
       linkedin: string;
       portfolio: string;
     };
   };
-  skills: {
-    technical: string[];
-    tools: string[];
-    other: string[];
-  };
+  skills: SkillGroup[];
   experience: Experience[];
   education: Education[];
   certifications: Certification[];
   projects: Project[];
   languages: { name: string; level: string }[];
-  hobbies: string[];
 }

@@ -1,28 +1,6 @@
 import { useEffect, useState } from "react";
+import { FALLBACK_DATA } from "../data/portfolio";
 import type { PortfolioData } from "../types/portfolio";
-
-const FALLBACK_DATA: PortfolioData = {
-  profile: {
-    name: "Emmanuel Odu",
-    title: "Software Engineer & Web Developer",
-    location: "Debrecen, Hungary",
-    phone: "+36703032003",
-    email: "immanuelodu@gmail.com",
-    bio: "Final-year Computer Science student and software developer focused on building modern, scalable web applications.",
-    links: {
-      github: "https://github.com/Emmanuell17",
-      linkedin: "https://www.linkedin.com/in/emmanuel-odu",
-      portfolio: "https://github.com/Emmanuell17/My-developer-journey",
-    },
-  },
-  skills: { technical: [], tools: [], other: [] },
-  experience: [],
-  education: [],
-  certifications: [],
-  projects: [],
-  languages: [],
-  hobbies: [],
-};
 
 export function usePortfolio() {
   const [data, setData] = useState<PortfolioData | null>(null);

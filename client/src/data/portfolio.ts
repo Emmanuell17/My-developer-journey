@@ -1,74 +1,6 @@
-export interface Project {
-  id: string;
-  title: string;
-  description: string;
-  liveUrl: string | null;
-  repoUrl: string | null;
-  tags: string[];
-  featured: boolean;
-}
+import type { PortfolioData } from "../types/portfolio";
 
-export interface Experience {
-  id: string;
-  role: string;
-  company: string;
-  location: string;
-  startDate: string;
-  endDate: string;
-  description: string;
-  highlights: string[];
-  stack: string[];
-  current?: boolean;
-}
-
-export interface Education {
-  id: string;
-  degree: string;
-  institution: string;
-  location: string;
-  startDate: string;
-  endDate: string;
-  note?: string;
-}
-
-export interface Certification {
-  id: string;
-  name: string;
-  issuer: string;
-  date: string;
-}
-
-export interface SkillGroup {
-  category: string;
-  items: string[];
-}
-
-export interface PortfolioData {
-  profile: {
-    name: string;
-    title: string;
-    headline: string;
-    location: string;
-    phone: string;
-    phoneDisplay: string;
-    email: string;
-    bio: string;
-    summary: string;
-    links: {
-      github: string;
-      linkedin: string;
-      portfolio: string;
-    };
-  };
-  skills: SkillGroup[];
-  experience: Experience[];
-  education: Education[];
-  certifications: Certification[];
-  projects: Project[];
-  languages: { name: string; level: string }[];
-}
-
-export const portfolioData: PortfolioData = {
+export const FALLBACK_DATA: PortfolioData = {
   profile: {
     name: "Emmanuel Odu",
     title: "Software Developer",
@@ -157,12 +89,7 @@ export const portfolioData: PortfolioData = {
     },
   ],
   certifications: [
-    {
-      id: "claude-101",
-      name: "Claude 101",
-      issuer: "Anthropic",
-      date: "",
-    },
+    { id: "claude-101", name: "Claude 101", issuer: "Anthropic", date: "" },
     {
       id: "python-bootcamp",
       name: "Python Bootcamp Certificate",
