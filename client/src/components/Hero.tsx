@@ -82,24 +82,15 @@ export function Hero({ profile, offset }: HeroProps) {
         </div>
 
         <div
-          className="relative mx-auto grid h-[min(420px,70vw)] w-[min(420px,70vw)] place-content-center will-change-transform lg:h-[480px] lg:w-[480px]"
+          className="relative mx-auto grid aspect-square w-full max-w-[min(100%,20rem)] place-content-center will-change-transform sm:max-w-[min(100%,22rem)] lg:max-w-[min(100%,24rem)]"
           style={{ transform: `translate3d(0, ${offset * -0.18}px, 0)` }}
         >
-          <div className="animate-pulse-ring absolute inset-0 rounded-full border border-copper/20" />
-          <div className="animate-spin-slow absolute inset-8 rounded-full border border-dashed border-cream/15" />
-          <div className="absolute inset-16 rounded-full border border-line" />
-          <div className="animate-float relative z-10 grid h-40 w-40 place-content-center rounded-full bg-gradient-to-br from-copper to-teal shadow-[0_0_80px_rgba(201,160,106,0.25)] sm:h-48 sm:w-48">
-            <span className="font-display text-5xl font-extrabold text-ink sm:text-6xl">EO</span>
+          <div className="animate-pulse-ring absolute inset-[8%] rounded-full border border-copper/20" />
+          <div className="animate-spin-slow absolute inset-[18%] rounded-full border border-dashed border-cream/15" />
+          <div className="absolute inset-[28%] rounded-full border border-line" />
+          <div className="animate-float relative z-10 grid h-32 w-32 place-content-center rounded-full bg-gradient-to-br from-copper to-teal shadow-[0_0_80px_rgba(201,160,106,0.25)] sm:h-40 sm:w-40">
+            <span className="font-display text-4xl font-extrabold text-ink sm:text-5xl">EO</span>
           </div>
-          <span className="absolute top-6 right-4 rounded-full border border-line bg-ink-2/80 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-cream-muted backdrop-blur-md">
-            Angular
-          </span>
-          <span className="absolute bottom-10 left-0 rounded-full border border-line bg-ink-2/80 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-cream-muted backdrop-blur-md">
-            LookOwt
-          </span>
-          <span className="absolute right-0 bottom-24 rounded-full border border-line bg-ink-2/80 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-cream-muted backdrop-blur-md">
-            AWS
-          </span>
         </div>
       </div>
 
