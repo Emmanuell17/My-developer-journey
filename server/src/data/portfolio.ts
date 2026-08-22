@@ -172,13 +172,13 @@ export const portfolioData: PortfolioData = {
   ],
   projects: [
     {
-      id: "shift-coordinator",
-      title: "Availability & Shift Coordinator",
+      id: "lookowt",
+      title: "LookOwt",
       description:
-        "Web application for coordinating team schedules: staff submit their availability, and managers assemble, review, and publish shift rosters against it in one place. Covers the full stack — interface, application logic, and the database schema modelling users, availability windows, and assigned shifts.",
-      liveUrl: null,
-      repoUrl: "https://github.com/Emmanuell17",
-      tags: ["TypeScript", "Node.js", "PostgreSQL"],
+        "Personal safety app live on the App Store and Google Play in 175+ countries. I build the Angular admin dashboard operators use to review incident reports, manage accounts, and monitor live safety alerts, working against .NET REST APIs on AWS.",
+      liveUrl: "https://www.lookowt.app/",
+      repoUrl: null,
+      tags: ["Angular", "TypeScript", ".NET", "AWS"],
       featured: true,
     },
     {
@@ -199,6 +199,16 @@ export const portfolioData: PortfolioData = {
       liveUrl: "https://gourmet-pot.vercel.app",
       repoUrl: "https://github.com/Emmanuell17/Gourmet-pot",
       tags: ["React", "Next.js", "Vercel"],
+      featured: true,
+    },
+    {
+      id: "shift-coordinator",
+      title: "Availability & Shift Coordinator",
+      description:
+        "Web application for coordinating team schedules: staff submit their availability, and managers assemble, review, and publish shift rosters against it in one place. Covers the full stack — interface, application logic, and the database schema modelling users, availability windows, and assigned shifts.",
+      liveUrl: null,
+      repoUrl: "https://github.com/Emmanuell17",
+      tags: ["TypeScript", "Node.js", "PostgreSQL"],
       featured: true,
     },
   ],
