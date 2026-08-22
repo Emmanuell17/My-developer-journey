@@ -1,5 +1,6 @@
 import type { PortfolioData } from "../types/portfolio";
 import { IconArrow, IconGithub, IconLinkedin, IconPin } from "./Icons";
+import { TypeQuestion } from "./TypeQuestion";
 
 interface HeroProps {
   profile: PortfolioData["profile"];
@@ -9,7 +10,10 @@ interface HeroProps {
 export function Hero({ profile, offset }: HeroProps) {
   return (
     <section id="top" className="relative min-h-screen overflow-hidden pt-28">
-      <div className="mx-auto grid w-[min(1120px,92vw)] items-center gap-12 pb-20 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16 lg:pb-8 lg:pt-10">
+      <div className="mx-auto mb-10 w-[min(1120px,92vw)] border-b border-line pb-6 md:mb-14">
+        <TypeQuestion />
+      </div>
+      <div className="mx-auto grid w-[min(1120px,92vw)] items-center gap-12 pb-20 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16 lg:pb-8 lg:pt-4">
         <div
           className="will-change-transform"
           style={{ transform: `translate3d(0, ${offset * 0.12}px, 0)` }}
