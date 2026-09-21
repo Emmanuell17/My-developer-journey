@@ -1,5 +1,5 @@
 import type { PortfolioData } from "../types/portfolio";
-import { IconArrow, IconGithub, IconLinkedin, IconPin } from "./Icons";
+import { IconArrow, IconPin } from "./Icons";
 import { TypeQuestion } from "./TypeQuestion";
 
 interface HeroProps {
@@ -61,27 +61,6 @@ export function Hero({ profile, offset }: HeroProps) {
               Get in touch
             </a>
           </div>
-
-          <div className="mt-8 flex items-center gap-5 text-sm text-cream-muted">
-            <a
-              href={profile.links.github}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 transition-colors duration-300 hover:text-cream"
-            >
-              <IconGithub className="h-4 w-4" />
-              GitHub
-            </a>
-            <a
-              href={profile.links.linkedin}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 transition-colors duration-300 hover:text-cream"
-            >
-              <IconLinkedin className="h-4 w-4" />
-              LinkedIn
-            </a>
-          </div>
           </div>
         </div>
 
@@ -96,14 +75,6 @@ export function Hero({ profile, offset }: HeroProps) {
             <span className="font-display text-4xl font-extrabold text-ink sm:text-5xl">EO</span>
           </div>
         </div>
-      </div>
-
-      <div className="mx-auto mb-8 flex w-[min(1120px,92vw)] items-center gap-4 text-cream-muted">
-        <span className="text-xs uppercase tracking-[0.28em]">Scroll</span>
-        <span className="h-px flex-1 bg-line" />
-        <span className="grid h-10 w-6 place-content-center rounded-full border border-line">
-          <span className="h-2 w-1 animate-bounce rounded-full bg-cream/70" />
-        </span>
       </div>
     </section>
   );

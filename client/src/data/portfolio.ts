@@ -9,9 +9,9 @@ export const FALLBACK_DATA: PortfolioData = {
     phone: "+36703032003",
     phoneDisplay: "+36 70 303 2003",
     email: "immanuelodu@gmail.com",
-    bio: "Computer Science graduate who writes TypeScript for software people actually use. Building the Angular dashboard behind LookOwt, a personal safety app live in 175+ countries.",
+    bio: "Computer Science graduate. I write TypeScript and build the Angular dashboard behind LookOwt, a personal safety app used in 175+ countries.",
     summary:
-      "Computer Science graduate (BSc, University of Debrecen) who writes TypeScript for software people actually use. Currently builds the Angular admin dashboard behind LookOwt, a personal safety application live on the App Store and Google Play across 175+ countries, working against .NET REST APIs deployed on AWS. Comfortable across the stack — React and Next.js on the front end, Node.js and PostgreSQL behind it — with production experience shipping to real deadlines alongside a full degree. Stipendium Hungaricum scholarship recipient; native English speaker with working Hungarian.",
+      "I have a BSc in Computer Science from the University of Debrecen. I build the Angular admin dashboard for LookOwt, a personal safety app on the App Store and Google Play in 175+ countries, using .NET REST APIs on AWS. I also work with React and Next.js on the front end, and Node.js and PostgreSQL on the back. I shipped production work while finishing my degree. Stipendium Hungaricum scholarship recipient. Native English, working Hungarian.",
     links: {
       github: "https://github.com/Emmanuell17",
       linkedin: "https://www.linkedin.com/in/emmanuel-odu",
@@ -52,10 +52,10 @@ export const FALLBACK_DATA: PortfolioData = {
       description:
         "Build the internal Angular administration dashboard for LookOwt, a personal safety app published on the App Store and Google Play in 175+ countries.",
       highlights: [
-        "Develop the dashboard in Angular and TypeScript, building typed data models and services against the product’s .NET REST API so schema changes surface at compile time rather than in production.",
-        "Implement operator-facing views used to review crowdsourced incident reports, manage user accounts, and monitor live safety alerts across regions.",
-        "Work directly against AWS-hosted staging and production environments, coordinating releases with the mobile (Flutter) and backend teams.",
-        "Contribute in a small, fast-moving team where features move from discussion to deployed in days, taking ownership of a feature end to end.",
+        "Build the dashboard in Angular and TypeScript, with typed models and services for the product's .NET REST API so API changes fail at compile time.",
+        "Build operator views to review crowdsourced incident reports, manage user accounts, and watch live safety alerts across regions.",
+        "Work against AWS staging and production, coordinating releases with the mobile (Flutter) and backend teams.",
+        "Work in a small team that ships features in days. I take a feature from discussion through to release.",
       ],
       stack: ["Angular", "TypeScript", ".NET REST APIs", "AWS"],
     },
@@ -69,10 +69,10 @@ export const FALLBACK_DATA: PortfolioData = {
       description:
         "Built and maintained client-facing web application features for a Norway-based service business.",
       highlights: [
-        "Developed responsive web interfaces in HTML, CSS, JavaScript and TypeScript, translating design requirements into working, cross-browser pages.",
-        "Implemented server-side functionality and REST endpoints in Node.js to support the application’s front-end features.",
-        "Worked on the underlying database layer — schema updates, queries, and data integration between the application and its stored records.",
-        "Collaborated remotely across time zones, taking requirements directly from the client and delivering iteratively over a fixed engagement.",
+        "Built responsive pages in HTML, CSS, JavaScript, and TypeScript from the client's design requirements.",
+        "Added Node.js REST endpoints to back the front-end features.",
+        "Handled schema updates, queries, and how the app talks to its stored data.",
+        "Worked remotely across time zones, taking requirements from the client and shipping in short iterations.",
       ],
       stack: ["HTML", "CSS", "TypeScript", "Node.js", "REST"],
     },
@@ -102,7 +102,7 @@ export const FALLBACK_DATA: PortfolioData = {
       id: "lookowt",
       title: "LookOwt",
       description:
-        "Personal safety app live on the App Store and Google Play in 175+ countries. I build the Angular admin dashboard operators use to review incident reports, manage accounts, and monitor live safety alerts, working against .NET REST APIs on AWS.",
+        "Personal safety app on the App Store and Google Play in 175+ countries. I build the Angular admin dashboard operators use to review incident reports, manage accounts, and watch live safety alerts, talking to .NET REST APIs on AWS.",
       liveUrl: "https://www.lookowt.app/",
       repoUrl: null,
       tags: ["Angular", "TypeScript", ".NET", "AWS"],
@@ -112,17 +112,17 @@ export const FALLBACK_DATA: PortfolioData = {
       id: "veltra-stock",
       title: "Veltra Stock",
       description:
-        "Full-stack inventory management system with real-time stock tracking and a clean admin dashboard.",
+        "Inventory app for tracking stock in real time, with an admin dashboard and an AI decision support system backed by Gemini.",
       liveUrl: "https://inventory-management-system-three-tawny.vercel.app/",
       repoUrl: "https://github.com/Emmanuell17/Inventory-management-system",
-      tags: ["React", "Node.js", "PostgreSQL", "Vercel"],
+      tags: ["React", "Node.js", "PostgreSQL", "Gemini", "Vercel"],
       featured: true,
     },
     {
       id: "gourmet-pot",
       title: "Gourmet Pot",
       description:
-        "Modern food ordering web app with responsive UI and a streamlined checkout experience.",
+        "Food ordering site with a responsive layout and a simple checkout.",
       liveUrl: "https://gourmet-pot.vercel.app",
       repoUrl: "https://github.com/Emmanuell17/Gourmet-pot",
       tags: ["React", "Next.js", "Vercel"],
@@ -132,7 +132,7 @@ export const FALLBACK_DATA: PortfolioData = {
       id: "shift-coordinator",
       title: "Availability & Shift Coordinator",
       description:
-        "Web application for coordinating team schedules: staff submit their availability, and managers assemble, review, and publish shift rosters against it in one place. Covers the full stack — interface, application logic, and the database schema modelling users, availability windows, and assigned shifts.",
+        "Staff submit availability. Managers build, review, and publish shift rosters in one place. Front end, app logic, and a database for users, availability windows, and assigned shifts.",
       liveUrl: null,
       repoUrl: "https://github.com/Emmanuell17",
       tags: ["TypeScript", "Node.js", "PostgreSQL"],

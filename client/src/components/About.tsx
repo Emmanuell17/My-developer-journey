@@ -32,7 +32,7 @@ export function About({ summary, education, certifications, languages }: AboutPr
                   {item.location}
                 </p>
                 <p className="mt-4 text-sm text-cream/70">
-                  {item.startDate} — {item.endDate}
+                  {item.startDate} to {item.endDate}
                 </p>
                 {item.note && <p className="mt-3 text-sm text-teal">{item.note}</p>}
               </article>

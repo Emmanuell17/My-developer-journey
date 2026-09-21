@@ -51,7 +51,7 @@ export function SectionHeader({ index, kicker, title }: SectionHeaderProps) {
   return (
     <Reveal className="mb-10 md:mb-16">
       <p className="mb-3 font-display text-[0.7rem] font-semibold uppercase tracking-[0.32em] text-copper">
-        {index} — {kicker}
+        {index} · {kicker}
       </p>
       <h2 className="font-display text-4xl font-bold tracking-tight text-cream sm:text-5xl md:text-6xl">
         {title}

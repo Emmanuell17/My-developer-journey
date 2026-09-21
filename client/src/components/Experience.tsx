@@ -18,7 +18,7 @@ export function Experience({ experience }: ExperienceProps) {
                 <span className="absolute top-2 left-0 h-6 w-6 rounded-full border-2 border-copper bg-ink md:h-10 md:w-10" />
                 <div>
                   <p className="text-sm text-copper">
-                    {job.startDate} — {job.endDate}
+                    {job.startDate} to {job.endDate}
                   </p>
                   <p className="mt-2 text-sm text-cream-muted">{job.location}</p>
                   {job.current && (

@@ -32,7 +32,7 @@ function App() {
       <ScrollProgress progress={progress} />
       {error && (
         <div className="relative z-40 bg-copper/15 px-4 py-2 text-center text-sm text-copper-bright">
-          API unavailable — showing cached profile.
+          API unavailable. Showing cached profile.
         </div>
       )}
       <Navbar name={data.profile.name} email={data.profile.email} />

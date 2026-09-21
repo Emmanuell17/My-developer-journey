@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="eo" x1="12" y1="8" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c9a06a"/>
+      <stop offset="1" stop-color="#5ec8c2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="#08090b"/>
+  <circle cx="32" cy="32" r="28" fill="url(#eo)"/>
+  <text x="32" y="40" text-anchor="middle" font-family="Syne, Outfit, sans-serif" font-size="22" font-weight="800" fill="#08090b">EO</text>
+</svg>
