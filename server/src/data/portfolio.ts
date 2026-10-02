@@ -158,10 +158,16 @@ export const portfolioData: PortfolioData = {
   ],
   certifications: [
     {
+      id: "aws-ai-practitioner",
+      name: "AWS Certified AI Practitioner",
+      issuer: "Amazon Web Services",
+      date: "September 2026",
+    },
+    {
       id: "claude-101",
       name: "Claude 101",
       issuer: "Anthropic",
-      date: "",
+      date: "March 2, 2026",
     },
     {
       id: "python-bootcamp",
