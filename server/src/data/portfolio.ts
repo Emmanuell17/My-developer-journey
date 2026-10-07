@@ -73,7 +73,7 @@ export const portfolioData: PortfolioData = {
     name: "Emmanuel Odu",
     title: "Software Developer",
     headline: "TypeScript · Angular · React · Node.js",
-    location: "Debrecen, Hungary",
+    location: "Budapest, Hungary",
     phone: "+36703032003",
     phoneDisplay: "+36 70 303 2003",
     email: "immanuelodu@gmail.com",
