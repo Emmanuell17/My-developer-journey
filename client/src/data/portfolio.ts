@@ -139,7 +139,7 @@ export const FALLBACK_DATA: PortfolioData = {
       title: "Availability & Shift Coordinator",
       description:
         "Staff submit availability. Managers build, review, and publish shift rosters in one place. Front end, app logic, and a database for users, availability windows, and assigned shifts.",
-      liveUrl: null,
+      liveUrl: "https://zorevashift.xyz",
       repoUrl: "https://github.com/Emmanuell17",
       tags: ["TypeScript", "Node.js", "PostgreSQL"],
       featured: true,
