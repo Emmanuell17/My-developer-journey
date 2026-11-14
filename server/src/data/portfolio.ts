@@ -217,6 +217,16 @@ export const portfolioData: PortfolioData = {
       tags: ["React", "Node.js", "PostgreSQL", "Gemini", "Vercel"],
       featured: true,
     },
+    {
+      id: "at-mine",
+      title: "At-Mine",
+      description:
+        "AI-powered social event planning platform. I contribute to product strategy and ideation, then build the features: agentic workflows, conversational interfaces, and third-party API integrations, using AI-assisted full-stack development.",
+      liveUrl: "https://at-mine.app",
+      repoUrl: null,
+      tags: ["AI", "Full-stack", "APIs"],
+      featured: true,
+    },
   ],
   languages: [
     { name: "English", level: "Native" },

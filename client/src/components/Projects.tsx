@@ -13,8 +13,8 @@ export function Projects({ projects }: ProjectsProps) {
         <SectionHeader index="03" kicker="Selected work" title="Projects" />
         <Reveal>
           <p className="mb-12 max-w-2xl text-lg text-cream-muted">
-            Work covering scheduling, inventory, and consumer web, including the LookOwt dashboard
-            I ship at Glodux Digital Labs.
+            Work covering event planning, scheduling, inventory, and consumer web, including the
+            LookOwt dashboard I ship at Glodux Digital Labs.
           </p>
         </Reveal>
 
